@@ -1,0 +1,64 @@
+
+.banners {
+  width: 750rpx;
+  margin: 20rpx 0;
+  border-radius: 14rpx;
+  overflow: hidden;
+}
+.banners image {
+  height: 300rpx;
+  width: 100%;
+}
+.content {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.swiper-item {
+  position: relative;
+  margin: 0 30rpx;
+  display: block;
+}
+
+.cu-list.grid.no-border {
+  padding: 0;
+}
+
+.cu-list.grid.no-border > .cu-item {
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+.cuIcon-rankfill:before {
+  display: inline-block;
+  padding-top: 10rpx;
+  width: 85rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.cuIcon-wefill:before {
+  display: inline-block;
+  padding-top: 10rpx;
+  width: 85rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.cuIcon-musicfill:before {
+  display: inline-block;
+  padding-top: 10rpx;
+  width: 85rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.cuIcon-hotfill:before {
+  display: inline-block;
+  padding-top: 10rpx;
+  width: 85rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  background-color: #eee;
+}

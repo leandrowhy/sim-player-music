@@ -21,6 +21,12 @@
 				"navigationBarTitleText": "账号"
 			}
 		}, {
+			"path":"pages/cloudVillage/index",
+			"style":{
+				"navigationBarTitleText":"云村"
+			}
+		},
+		{
 			"path": "pages/music/index",
 			"style": {
 				"navigationBarTitleText": "音乐"
@@ -45,7 +51,16 @@
 			"style": {}
 		}
 
-	],
+	    ,{
+            "path" : "pages/cloudVillage/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -81,7 +96,13 @@
 			"iconPath": "static/tab/t_3.png",
 			"selectedIconPath": "static/tab/t_31.png",
 			"text": "音乐"
-		}, {
+		}, 
+		{
+			"pagePath":"pages/cloudVillage/index",
+			"iconPath":"static/tab/t_4.png",
+			"selectedIconPath":"static/tab/t_41.png",
+			"text":"云村"
+		},{
 			"pagePath": "pages/account/index",
 			"iconPath": "static/tab/t_5.png",
 			"selectedIconPath": "static/tab/t_51.png",
