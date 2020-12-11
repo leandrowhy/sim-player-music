@@ -18,6 +18,8 @@
 						:duration="600"
 						:circular="true"
 					>
+					
+					
 						<swiper-item
 							v-for="(ele, index) in banners"
 							:key="index"
